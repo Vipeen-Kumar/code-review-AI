@@ -54,7 +54,12 @@ main .right {
   animation-delay: 0.1s;
 }
 
+/* Add this to your existing App.css file */
 
+.left {
+  position: relative; /* Required for the absolute positioning of the selector */
+  padding-top: 70px; /* Add space at the top for the language selector */
+}
 main .left {
   background-color: #000000;
   position: relative;
